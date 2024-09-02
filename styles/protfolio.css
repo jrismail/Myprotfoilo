@@ -3,7 +3,7 @@ body{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     margin: 0;
-    background-color: black;
+    background-color: lightgray;
     
     
 }
@@ -100,7 +100,9 @@ main{
     margin: 0 auto;
     
 }
-
+main section{
+    margin-top: 130px;
+}
 
 /*section style*/
 .section-titel{
@@ -158,8 +160,7 @@ color:  wheat;
 
 }
 .skill{
-    padding: 30px;
-    gap: 24px;
+    padding: 30px; 
     box-shadow: 10px 10px 20px aqua;
     border-radius: 20px;
 }
