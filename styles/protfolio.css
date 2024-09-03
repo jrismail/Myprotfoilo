@@ -3,7 +3,7 @@ body{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     margin: 0;
-    background-color: lightgray;
+    background-color: black;
     
     
 }
@@ -169,6 +169,45 @@ color:  wheat;
 }
 .skill-description{
     color: white;
+}
+
+/*resume style*/
+
+.resume-containar{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.resume-containar hr{
+    margin: 30px 0;
+}
+.resume-column{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.resume-titel{
+    margin-bottom: 20px;
+
+}
+.resume-item-titel{
+    font: 25px;
+}
+.resume-item-institute{
+    color: lightgray;
+}
+.resume-item-description{
+    color: lightgray;
+}
+.download-cv{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+#resume-btn{
+    box-shadow: 4px 5px 10px aqua;
+    padding: 20px;
 }
 
 
