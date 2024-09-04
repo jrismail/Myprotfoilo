@@ -50,8 +50,10 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
 
-
+.Message-me{
+    color: white;
 }
 
 /* header styles*/
@@ -213,9 +215,38 @@ color:  wheat;
 .bx bxs-download{
     color: white;
 }
+
+/*footer style*/
+.mainFooter{
+    text-align: center;
+    margin-top: 40px;
+    background-color: silver;
+    padding: 20px;
+}
+
 .social-link img{
     height: 20px;
     width: 20px;
     margin-right: 10px;
+}
+
+.footer-section{
+    display: flex;
+    background-color: aquamarine;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: gray;
+    border-radius: 10px;
+    background-color: white;
+    border: 0;
+    width: 50%;
 }
 
