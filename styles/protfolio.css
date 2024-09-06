@@ -60,9 +60,9 @@ nav a{
 
 .header{
     background-color: aqua;
-    background-image: url('../images/background.png');
+    background-image: url('../images/background.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner{
