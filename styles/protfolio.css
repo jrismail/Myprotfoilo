@@ -15,13 +15,21 @@ body{
 .btn-primary{
     border-radius: 5px;
     background-color:lightslategray;
-    border: 0;
+    border: 2px solid transparent;
     color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    box-shadow: 4px 5px 10px black;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .5s;
 }
+
+.btn-primary:hover{
+    border: 2px solid  black;
+    transform: translateZ(4px);
+}
+
 
 /*nav related style*/
 nav { 
@@ -54,6 +62,11 @@ nav a{
 
 .Message-me{
     color: white;
+}
+
+.pdf-btn{
+    color: white;
+    text-decoration: none;
 }
 
 /* header styles*/
@@ -163,9 +176,19 @@ color:  wheat;
 }
 .skill{
     padding: 30px; 
-    box-shadow: 10px 10px 20px aqua;
     border-radius: 20px;
+    border: 2px solid white;
+    transition: all ease .5s;
+    outline: none;
+    cursor: pointer;
+
 }
+.skill:hover{
+    border: 2px solid white;
+    box-shadow: 8px 2px 30px aqua;
+    transform: translateY(4px);
+}
+
 .skill-titel{
     color: white;
 }
@@ -208,8 +231,14 @@ color:  wheat;
     
 }
 #resume-btn{
-    box-shadow: 4px 5px 10px aqua;
-    padding: 20px;
+    border: 2px solid  black;
+    transition: all ease .5s;
+    outline: none;
+}
+#resume-btn:hover{
+    border: 2px soli  black;
+    transform: translateZ(6px);
+    box-shadow: 4px 0px 20px aqua;
 }
 
 .bx bxs-download{
